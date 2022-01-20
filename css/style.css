@@ -261,12 +261,15 @@ img {
 }
 
 .banner-text .button {
-    padding: 15px 30px;
+    width: 170px;
+    height: 48px;
+    padding: 1px 5px;
     font-size: 14px;
     background: #34547A;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
+    border: none;
 }
 
 .about-me {
@@ -641,9 +644,10 @@ img {
         margin: 0 0 30px;
     }
 
-    .banner-text a {
+    .banner-text .button {
         font-size: 16px;
-        padding: 25px 41px;
+        width: 215px;
+        height: 63px;
     }
 
     .skills-row {
@@ -784,11 +788,6 @@ img {
     .banner-text .text {
         font-size: 16px;
         margin: 0 0 50px;
-    }
-
-    .banner-text a {
-        font-size: 16px;
-        padding: 25px 41px;
     }
 
     .about-me {
